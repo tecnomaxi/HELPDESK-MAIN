@@ -37,9 +37,6 @@
             </header>
 
             <div class="box-typical box-typical-padding">
-                <p>
-                    Desde esta ventana podra generar nuevos tickets de HelpDesk.
-                </p>
 
                 <h5 class="m-t-lg with-border">Ingresar Información</h5>
 
@@ -50,9 +47,9 @@
 
                         <div class="col-lg-12">
                             <fieldset class="form-group">
-                                <label class="form-label semibold" for="tick_titulo">Titulo</label>
+                                <label class="form-label semibold" for="tick_titulo">Asunto</label>
                                 <input type="text" class="form-control" id="tick_titulo" name="tick_titulo"
-                                    placeholder="Ingrese Titulo">
+                                    placeholder="Ingrese un título general">
                             </fieldset>
                         </div>
 
@@ -82,8 +79,9 @@
                             </fieldset>
                         </div>
                         <div class="col-lg-12">
-                            <button type="submit" name="action" value="add"
-                                class="btn btn-rounded btn-inline btn-primary">Guardar</button>
+                            <button type="submit" name="action" value="add" class="btn btn-rounded btn-inline btn-primary">
+                                Enviar
+                            </button>
                         </div>
                     </form>
                 </div>
@@ -95,7 +93,7 @@
 
     <?php require_once("../MainJs/js.php");?>
 
-    <script type="text/javascript" src="nuevoticket.js"></script>
+    <script type="text/javascript" src="nuevotickets.js"></script>
 
 </body>
 

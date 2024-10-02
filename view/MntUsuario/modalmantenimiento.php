@@ -26,7 +26,7 @@
 
                     <div class="form-group">
                         <label class="form-label" for="usu_correo">Nombre Usuario</label>
-                        <input type="email" class="form-control" id="usu_correo" name="usu_correo"
+                        <input type="text" class="form-control" id="usu_correo" name="usu_correo"
                             placeholder="nombre.apellido" required>
                     </div>
 

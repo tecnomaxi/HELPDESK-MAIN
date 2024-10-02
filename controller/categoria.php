@@ -6,6 +6,7 @@
     switch($_GET["op"]){
         case "combo":
             $datos = $categoria->get_categoria();
+            $html.= "<option selected disabled value=''>Seleccione...</option>";
             if(is_array($datos)==true and count($datos)>0){
                 foreach($datos as $row)
                 {
